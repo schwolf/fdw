@@ -7,7 +7,7 @@ public class Task1 {
     // Calculate the sum of the first 100 numbers higher than 0
 
 
-        public void calc (int nr) {
+        public static void calc (int nr) {
 
             int sumNr =0;
 
@@ -24,7 +24,7 @@ public class Task1 {
     public static void main(String[] args) {
 
 
-        new Task1().calc(3);
+        Task1.calc(3);
     }
 }
 
